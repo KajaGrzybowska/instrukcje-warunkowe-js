@@ -2,9 +2,8 @@
 /*
 var a = prompt('Wpisz wartość A');
 var	b = prompt('Wpisz wartość B');
-var	value = alert((a * a) + (2 * a * b) - (b * b));
+var	value = (a * a) + (2 * a * b) - (b * b);
 
-Pytanie: Dlaczego to poniżej w ogóle nie działa?
 
 if (value > 0) {
 	alert('wynik jest dodatni');
@@ -19,18 +18,21 @@ else
 	alert('wynik jest rowny zero');
 */
 
+
 var a = 0;
 var b = 0;
 var value = (a * a) + (2 * a * b) - (b * b);
 
 if (value > 0) {
-	alert('wynik dodani')
+	alert('wynik dodani');
 }
 
 else if (value < 0) {
-	alert('wynik ujemny')
+	alert('wynik ujemny');
 }
 
-else 
-	alert('wynik jest równy 0')
+else {
+	alert('wynik jest równy 0');
+}
+
 
